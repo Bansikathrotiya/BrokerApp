@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183225FF2D75AD6A00B2AA01 /* BrokerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183225FD2D75AD6A00B2AA01 /* BrokerAppTests.swift */; };
+		183226032D75AD6A00B2AA01 /* BrokerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183226002D75AD6A00B2AA01 /* BrokerAppUITests.swift */; };
+		183226042D75AD6A00B2AA01 /* BrokerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183226012D75AD6A00B2AA01 /* BrokerAppUITestsLaunchTests.swift */; };
+		1832260F2D75AD6A00B2AA01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183226052D75AD6A00B2AA01 /* AppDelegate.swift */; };
+		183226102D75AD6A00B2AA01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832260C2D75AD6A00B2AA01 /* SceneDelegate.swift */; };
+		183226112D75AD6A00B2AA01 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832260D2D75AD6A00B2AA01 /* SplashScreenVC.swift */; };
+		183226122D75AD6A00B2AA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183226062D75AD6A00B2AA01 /* Assets.xcassets */; };
+		183226142D75AD6A00B2AA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183226092D75AD6A00B2AA01 /* LaunchScreen.storyboard */; };
+		183226152D75AD6A00B2AA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1832260B2D75AD6A00B2AA01 /* Main.storyboard */; };
+		183226172D75B55400B2AA01 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183226162D75B55400B2AA01 /* SplashVC.swift */; };
+		18515BA92D7EF7F00031315F /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18515BA82D7EF7F00031315F /* File.txt */; };
+		1886DCFA2DA56CFE008BC50C /* Messages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1886DCF92DA56CFE008BC50C /* Messages.storyboard */; };
+		188761602DBB2DC000B360DE /* InventoryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887615F2DBB2DC000B360DE /* InventoryDetailsVC.swift */; };
+		188761622DBB2E0B00B360DE /* AddInventoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188761612DBB2E0B00B360DE /* AddInventoryVC.swift */; };
+		188761642DBB2E3E00B360DE /* EditBrokerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188761632DBB2E3E00B360DE /* EditBrokerDetailsVC.swift */; };
+		188761662DBB2E6C00B360DE /* LogOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188761652DBB2E6C00B360DE /* LogOutVC.swift */; };
+		188CD7D62DB1F8F50033D709 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CD7D52DB1F8F50033D709 /* TabBarVC.swift */; };
+		188CD7D82DB1FD8A0033D709 /* SuggestListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188CD7D72DB1FD8A0033D709 /* SuggestListVC.swift */; };
+		189EF5592DB9DAFF0083FEE9 /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EF5582DB9DAFF0083FEE9 /* FilterVC.swift */; };
+		18A2088F2DAA095200FE7010 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A2088E2DAA095200FE7010 /* Register.storyboard */; };
+		18A208912DAA09EC00FE7010 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A208902DAA09EC00FE7010 /* LogIn.storyboard */; };
+		18A2089A2DAA11AB00FE7010 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A208992DAA11AB00FE7010 /* HomeVC.swift */; };
+		18A2089C2DAA18B200FE7010 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2089B2DAA18B200FE7010 /* RegisterVC.swift */; };
+		18A2089E2DAA18EA00FE7010 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2089D2DAA18EA00FE7010 /* OTPVC.swift */; };
+		18A208A02DAA192200FE7010 /* PINNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2089F2DAA192200FE7010 /* PINNumberVC.swift */; };
+		18A208A22DAA196F00FE7010 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A208A12DAA196F00FE7010 /* LoginVC.swift */; };
+		18A208A42DAA19A200FE7010 /* PINForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A208A32DAA19A200FE7010 /* PINForgotVC.swift */; };
+		18A208A62DAA1A3A00FE7010 /* NEWPINVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A208A52DAA1A3A00FE7010 /* NEWPINVC.swift */; };
+		18CE216E2DB8A0610096BC8D /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE216D2DB8A0610096BC8D /* MessageVC.swift */; };
+		18CE21702DB8A0B20096BC8D /* InventoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE216F2DB8A0B20096BC8D /* InventoryVC.swift */; };
+		18CE21722DB8A0D70096BC8D /* SaveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE21712DB8A0D70096BC8D /* SaveVC.swift */; };
+		18CE21742DB8A0FD0096BC8D /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE21732DB8A0FD0096BC8D /* SettingVC.swift */; };
+		18E70BE92DA5193700F828FA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E70BE82DA5193700F828FA /* Home.storyboard */; };
+		18E70BEB2DA524B800F828FA /* Inventory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E70BEA2DA524B800F828FA /* Inventory.storyboard */; };
+		18E70BEE2DA5289600F828FA /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E70BED2DA5289600F828FA /* Settings.storyboard */; };
+		18E70BF02DA52E0300F828FA /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E70BEF2DA52E0300F828FA /* TabBar.storyboard */; };
+		2EF7E774961E6841FF6E0B92 /* Pods_BrokerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84591B7B69666756375967A6 /* Pods_BrokerAppTests.framework */; };
+		58BDDFE8E180E72ED5A19ABA /* Pods_BrokerApp_BrokerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2D95620993E75D3FC4BC3E /* Pods_BrokerApp_BrokerAppUITests.framework */; };
+		A6B70FBBEC379486565A1B36 /* Pods_BrokerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D2A9D17B7F7086A48DBC3F /* Pods_BrokerApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183225E02D75AD5600B2AA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183225C12D75AD5200B2AA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183225C82D75AD5200B2AA01;
+			remoteInfo = BrokerApp;
+		};
+		183225EA2D75AD5600B2AA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183225C12D75AD5200B2AA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183225C82D75AD5200B2AA01;
+			remoteInfo = BrokerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183225FD2D75AD6A00B2AA01 /* BrokerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerAppTests.swift; sourceTree = "<group>"; };
+		183226002D75AD6A00B2AA01 /* BrokerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerAppUITests.swift; sourceTree = "<group>"; };
+		183226012D75AD6A00B2AA01 /* BrokerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		183226052D75AD6A00B2AA01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		183226062D75AD6A00B2AA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183226072D75AD6A00B2AA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183226082D75AD6A00B2AA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1832260A2D75AD6A00B2AA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1832260C2D75AD6A00B2AA01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1832260D2D75AD6A00B2AA01 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		183226162D75B55400B2AA01 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		18515BA82D7EF7F00031315F /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		185CE8142DA8BC120079144E /* BrokerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185CE8152DA8BC120079144E /* BrokerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185CE8162DA8BC120079144E /* BrokerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1886DCF92DA56CFE008BC50C /* Messages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Messages.storyboard; sourceTree = "<group>"; };
+		1887615F2DBB2DC000B360DE /* InventoryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InventoryDetailsVC.swift; path = BrokerApp/System/View/InventoryDetailsVC.swift; sourceTree = SOURCE_ROOT; };
+		188761612DBB2E0B00B360DE /* AddInventoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddInventoryVC.swift; path = BrokerApp/System/View/AddInventoryVC.swift; sourceTree = SOURCE_ROOT; };
+		188761632DBB2E3E00B360DE /* EditBrokerDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditBrokerDetailsVC.swift; path = BrokerApp/System/View/EditBrokerDetailsVC.swift; sourceTree = SOURCE_ROOT; };
+		188761652DBB2E6C00B360DE /* LogOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LogOutVC.swift; path = BrokerApp/System/View/LogOutVC.swift; sourceTree = SOURCE_ROOT; };
+		188CD7D52DB1F8F50033D709 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarVC.swift; path = BrokerApp/System/VC/TabBarVC.swift; sourceTree = SOURCE_ROOT; };
+		188CD7D72DB1FD8A0033D709 /* SuggestListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SuggestListVC.swift; path = BrokerApp/System/VC/TabBar/SuggestListVC.swift; sourceTree = SOURCE_ROOT; };
+		189EF5582DB9DAFF0083FEE9 /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
+		18A2088E2DAA095200FE7010 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		18A208902DAA09EC00FE7010 /* LogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
+		18A208992DAA11AB00FE7010 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		18A2089B2DAA18B200FE7010 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		18A2089D2DAA18EA00FE7010 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
+		18A2089F2DAA192200FE7010 /* PINNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINNumberVC.swift; sourceTree = "<group>"; };
+		18A208A12DAA196F00FE7010 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = BrokerApp/System/VC/LogIn/LoginVC.swift; sourceTree = SOURCE_ROOT; };
+		18A208A32DAA19A200FE7010 /* PINForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINForgotVC.swift; sourceTree = "<group>"; };
+		18A208A52DAA1A3A00FE7010 /* NEWPINVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEWPINVC.swift; sourceTree = "<group>"; };
+		18CE216D2DB8A0610096BC8D /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageVC.swift; path = BrokerApp/System/View/MessageVC.swift; sourceTree = SOURCE_ROOT; };
+		18CE216F2DB8A0B20096BC8D /* InventoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InventoryVC.swift; path = BrokerApp/System/View/InventoryVC.swift; sourceTree = SOURCE_ROOT; };
+		18CE21712DB8A0D70096BC8D /* SaveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SaveVC.swift; path = BrokerApp/System/View/SaveVC.swift; sourceTree = SOURCE_ROOT; };
+		18CE21732DB8A0FD0096BC8D /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingVC.swift; path = BrokerApp/System/View/SettingVC.swift; sourceTree = SOURCE_ROOT; };
+		18E70BE82DA5193700F828FA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		18E70BEA2DA524B800F828FA /* Inventory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inventory.storyboard; sourceTree = "<group>"; };
+		18E70BED2DA5289600F828FA /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		18E70BEF2DA52E0300F828FA /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		1DB04B4E4A0EA049FD64BF7B /* Pods-BrokerApp-BrokerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokerApp-BrokerAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BrokerApp-BrokerAppUITests/Pods-BrokerApp-BrokerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26D2A9D17B7F7086A48DBC3F /* Pods_BrokerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrokerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6E85814C8842E555F1F6CF /* Pods-BrokerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokerApp.release.xcconfig"; path = "Target Support Files/Pods-BrokerApp/Pods-BrokerApp.release.xcconfig"; sourceTree = "<group>"; };
+		84591B7B69666756375967A6 /* Pods_BrokerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrokerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91013A5498B6C5935DD3CD94 /* Pods-BrokerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BrokerAppTests/Pods-BrokerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA2D95620993E75D3FC4BC3E /* Pods_BrokerApp_BrokerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrokerApp_BrokerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D041676CC80C1643988094 /* Pods-BrokerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokerAppTests.release.xcconfig"; path = "Target Support Files/Pods-BrokerAppTests/Pods-BrokerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9D6E44AF6E8433CCF7CDFF7 /* Pods-BrokerApp-BrokerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokerApp-BrokerAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BrokerApp-BrokerAppUITests/Pods-BrokerApp-BrokerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FFD4A89DE0B14550C0096879 /* Pods-BrokerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokerApp.debug.xcconfig"; path = "Target Support Files/Pods-BrokerApp/Pods-BrokerApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183225C62D75AD5200B2AA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B70FBBEC379486565A1B36 /* Pods_BrokerApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183225DC2D75AD5600B2AA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF7E774961E6841FF6E0B92 /* Pods_BrokerAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183225E62D75AD5600B2AA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BDDFE8E180E72ED5A19ABA /* Pods_BrokerApp_BrokerAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024FDADB707DB497FC9602BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4A89DE0B14550C0096879 /* Pods-BrokerApp.debug.xcconfig */,
+				5B6E85814C8842E555F1F6CF /* Pods-BrokerApp.release.xcconfig */,
+				1DB04B4E4A0EA049FD64BF7B /* Pods-BrokerApp-BrokerAppUITests.debug.xcconfig */,
+				D9D6E44AF6E8433CCF7CDFF7 /* Pods-BrokerApp-BrokerAppUITests.release.xcconfig */,
+				91013A5498B6C5935DD3CD94 /* Pods-BrokerAppTests.debug.xcconfig */,
+				C8D041676CC80C1643988094 /* Pods-BrokerAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		183225C02D75AD5200B2AA01 = {
+			isa = PBXGroup;
+			children = (
+				1832260E2D75AD6A00B2AA01 /* BrokerApp */,
+				183225FE2D75AD6A00B2AA01 /* BrokerAppTests */,
+				183226022D75AD6A00B2AA01 /* BrokerAppUITests */,
+				024FDADB707DB497FC9602BD /* Pods */,
+				185CE8142DA8BC120079144E /* BrokerApp.app */,
+				185CE8152DA8BC120079144E /* BrokerAppTests.xctest */,
+				185CE8162DA8BC120079144E /* BrokerAppUITests.xctest */,
+				B4F122EE7B4B841E1D6CF022 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		183225FE2D75AD6A00B2AA01 /* BrokerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				183225FD2D75AD6A00B2AA01 /* BrokerAppTests.swift */,
+			);
+			path = BrokerAppTests;
+			sourceTree = "<group>";
+		};
+		183226022D75AD6A00B2AA01 /* BrokerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18515BA82D7EF7F00031315F /* File.txt */,
+				183226002D75AD6A00B2AA01 /* BrokerAppUITests.swift */,
+				183226012D75AD6A00B2AA01 /* BrokerAppUITestsLaunchTests.swift */,
+			);
+			path = BrokerAppUITests;
+			sourceTree = "<group>";
+		};
+		1832260E2D75AD6A00B2AA01 /* BrokerApp */ = {
+			isa = PBXGroup;
+			children = (
+				183226072D75AD6A00B2AA01 /* Info.plist */,
+				1886DCFB2DA56FB6008BC50C /* System */,
+			);
+			path = BrokerApp;
+			sourceTree = "<group>";
+		};
+		1886DCFB2DA56FB6008BC50C /* System */ = {
+			isa = PBXGroup;
+			children = (
+				1886DCFD2DA56FF2008BC50C /* Delegate */,
+				1886DCFF2DA57018008BC50C /* Assets */,
+				1886DCFE2DA57005008BC50C /* VC */,
+				1886DCFC2DA56FC8008BC50C /* View */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		1886DCFC2DA56FC8008BC50C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183226092D75AD6A00B2AA01 /* LaunchScreen.storyboard */,
+				1832260B2D75AD6A00B2AA01 /* Main.storyboard */,
+				18A2088E2DAA095200FE7010 /* Register.storyboard */,
+				18A208902DAA09EC00FE7010 /* LogIn.storyboard */,
+				18E70BEF2DA52E0300F828FA /* TabBar.storyboard */,
+				18E70BE82DA5193700F828FA /* Home.storyboard */,
+				1886DCF92DA56CFE008BC50C /* Messages.storyboard */,
+				18E70BEA2DA524B800F828FA /* Inventory.storyboard */,
+				18E70BED2DA5289600F828FA /* Settings.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1886DCFD2DA56FF2008BC50C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				183226052D75AD6A00B2AA01 /* AppDelegate.swift */,
+				1832260C2D75AD6A00B2AA01 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		1886DCFE2DA57005008BC50C /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				18A208922DAA0F5A00FE7010 /* Main */,
+				18A208942DAA10E100FE7010 /* Register */,
+				18A208932DAA10D800FE7010 /* LogIn */,
+				188CD7CF2DB1F33C0033D709 /* TabBar */,
+				18A208952DAA10EB00FE7010 /* Home */,
+				18A208962DAA10F200FE7010 /* Messages */,
+				18A208972DAA10FB00FE7010 /* Inventory */,
+				18A208982DAA110700FE7010 /* Setting */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1886DCFF2DA57018008BC50C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				183226062D75AD6A00B2AA01 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		188CD7CF2DB1F33C0033D709 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				188CD7D52DB1F8F50033D709 /* TabBarVC.swift */,
+				18A208992DAA11AB00FE7010 /* HomeVC.swift */,
+				18CE216D2DB8A0610096BC8D /* MessageVC.swift */,
+				18CE216F2DB8A0B20096BC8D /* InventoryVC.swift */,
+				18CE21712DB8A0D70096BC8D /* SaveVC.swift */,
+				18CE21732DB8A0FD0096BC8D /* SettingVC.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		18A208922DAA0F5A00FE7010 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1832260D2D75AD6A00B2AA01 /* SplashScreenVC.swift */,
+				183226162D75B55400B2AA01 /* SplashVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18A208932DAA10D800FE7010 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				18A208A12DAA196F00FE7010 /* LoginVC.swift */,
+				18A208A32DAA19A200FE7010 /* PINForgotVC.swift */,
+				18A208A52DAA1A3A00FE7010 /* NEWPINVC.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		18A208942DAA10E100FE7010 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				18A2089B2DAA18B200FE7010 /* RegisterVC.swift */,
+				18A2089D2DAA18EA00FE7010 /* OTPVC.swift */,
+				18A2089F2DAA192200FE7010 /* PINNumberVC.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		18A208952DAA10EB00FE7010 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				188CD7D72DB1FD8A0033D709 /* SuggestListVC.swift */,
+				189EF5582DB9DAFF0083FEE9 /* FilterVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18A208962DAA10F200FE7010 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		18A208972DAA10FB00FE7010 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				1887615F2DBB2DC000B360DE /* InventoryDetailsVC.swift */,
+				188761612DBB2E0B00B360DE /* AddInventoryVC.swift */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		18A208982DAA110700FE7010 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				188761632DBB2E3E00B360DE /* EditBrokerDetailsVC.swift */,
+				188761652DBB2E6C00B360DE /* LogOutVC.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		B4F122EE7B4B841E1D6CF022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26D2A9D17B7F7086A48DBC3F /* Pods_BrokerApp.framework */,
+				AA2D95620993E75D3FC4BC3E /* Pods_BrokerApp_BrokerAppUITests.framework */,
+				84591B7B69666756375967A6 /* Pods_BrokerAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183225C82D75AD5200B2AA01 /* BrokerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183225F22D75AD5600B2AA01 /* Build configuration list for PBXNativeTarget "BrokerApp" */;
+			buildPhases = (
+				A3E6D137859BF07FE42329C3 /* [CP] Check Pods Manifest.lock */,
+				183225C52D75AD5200B2AA01 /* Sources */,
+				183225C62D75AD5200B2AA01 /* Frameworks */,
+				183225C72D75AD5200B2AA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrokerApp;
+			productName = BrokerApp;
+			productReference = 185CE8142DA8BC120079144E /* BrokerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183225DE2D75AD5600B2AA01 /* BrokerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183225F72D75AD5600B2AA01 /* Build configuration list for PBXNativeTarget "BrokerAppTests" */;
+			buildPhases = (
+				9685496D2CDA32FDC0C7E54E /* [CP] Check Pods Manifest.lock */,
+				183225DB2D75AD5600B2AA01 /* Sources */,
+				183225DC2D75AD5600B2AA01 /* Frameworks */,
+				183225DD2D75AD5600B2AA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183225E12D75AD5600B2AA01 /* PBXTargetDependency */,
+			);
+			name = BrokerAppTests;
+			productName = BrokerAppTests;
+			productReference = 185CE8152DA8BC120079144E /* BrokerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183225E82D75AD5600B2AA01 /* BrokerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183225FA2D75AD5600B2AA01 /* Build configuration list for PBXNativeTarget "BrokerAppUITests" */;
+			buildPhases = (
+				695D48C17ACBC0FB87357FE4 /* [CP] Check Pods Manifest.lock */,
+				183225E52D75AD5600B2AA01 /* Sources */,
+				183225E62D75AD5600B2AA01 /* Frameworks */,
+				183225E72D75AD5600B2AA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183225EB2D75AD5600B2AA01 /* PBXTargetDependency */,
+			);
+			name = BrokerAppUITests;
+			productName = BrokerAppUITests;
+			productReference = 185CE8162DA8BC120079144E /* BrokerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183225C12D75AD5200B2AA01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					183225C82D75AD5200B2AA01 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					183225DE2D75AD5600B2AA01 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 183225C82D75AD5200B2AA01;
+					};
+					183225E82D75AD5600B2AA01 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 183225C82D75AD5200B2AA01;
+					};
+				};
+			};
+			buildConfigurationList = 183225C42D75AD5200B2AA01 /* Build configuration list for PBXProject "BrokerApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183225C02D75AD5200B2AA01;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 183225C02D75AD5200B2AA01;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183225C82D75AD5200B2AA01 /* BrokerApp */,
+				183225DE2D75AD5600B2AA01 /* BrokerAppTests */,
+				183225E82D75AD5600B2AA01 /* BrokerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183225C72D75AD5200B2AA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183226122D75AD6A00B2AA01 /* Assets.xcassets in Resources */,
+				183226142D75AD6A00B2AA01 /* LaunchScreen.storyboard in Resources */,
+				1886DCFA2DA56CFE008BC50C /* Messages.storyboard in Resources */,
+				183226152D75AD6A00B2AA01 /* Main.storyboard in Resources */,
+				18A208912DAA09EC00FE7010 /* LogIn.storyboard in Resources */,
+				18E70BEE2DA5289600F828FA /* Settings.storyboard in Resources */,
+				18A2088F2DAA095200FE7010 /* Register.storyboard in Resources */,
+				18E70BE92DA5193700F828FA /* Home.storyboard in Resources */,
+				18E70BF02DA52E0300F828FA /* TabBar.storyboard in Resources */,
+				18E70BEB2DA524B800F828FA /* Inventory.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183225DD2D75AD5600B2AA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183225E72D75AD5600B2AA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18515BA92D7EF7F00031315F /* File.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		695D48C17ACBC0FB87357FE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrokerApp-BrokerAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9685496D2CDA32FDC0C7E54E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrokerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E6D137859BF07FE42329C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrokerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183225C52D75AD5200B2AA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1832260F2D75AD6A00B2AA01 /* AppDelegate.swift in Sources */,
+				18A2089A2DAA11AB00FE7010 /* HomeVC.swift in Sources */,
+				183226172D75B55400B2AA01 /* SplashVC.swift in Sources */,
+				18A2089E2DAA18EA00FE7010 /* OTPVC.swift in Sources */,
+				18CE216E2DB8A0610096BC8D /* MessageVC.swift in Sources */,
+				188761642DBB2E3E00B360DE /* EditBrokerDetailsVC.swift in Sources */,
+				18A208A62DAA1A3A00FE7010 /* NEWPINVC.swift in Sources */,
+				18A2089C2DAA18B200FE7010 /* RegisterVC.swift in Sources */,
+				188761622DBB2E0B00B360DE /* AddInventoryVC.swift in Sources */,
+				18A208A22DAA196F00FE7010 /* LoginVC.swift in Sources */,
+				18A208A02DAA192200FE7010 /* PINNumberVC.swift in Sources */,
+				188CD7D82DB1FD8A0033D709 /* SuggestListVC.swift in Sources */,
+				188761602DBB2DC000B360DE /* InventoryDetailsVC.swift in Sources */,
+				18CE21742DB8A0FD0096BC8D /* SettingVC.swift in Sources */,
+				18A208A42DAA19A200FE7010 /* PINForgotVC.swift in Sources */,
+				189EF5592DB9DAFF0083FEE9 /* FilterVC.swift in Sources */,
+				183226102D75AD6A00B2AA01 /* SceneDelegate.swift in Sources */,
+				188CD7D62DB1F8F50033D709 /* TabBarVC.swift in Sources */,
+				18CE21702DB8A0B20096BC8D /* InventoryVC.swift in Sources */,
+				183226112D75AD6A00B2AA01 /* SplashScreenVC.swift in Sources */,
+				188761662DBB2E6C00B360DE /* LogOutVC.swift in Sources */,
+				18CE21722DB8A0D70096BC8D /* SaveVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183225DB2D75AD5600B2AA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183225FF2D75AD6A00B2AA01 /* BrokerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183225E52D75AD5600B2AA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183226032D75AD6A00B2AA01 /* BrokerAppUITests.swift in Sources */,
+				183226042D75AD6A00B2AA01 /* BrokerAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183225E12D75AD5600B2AA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183225C82D75AD5200B2AA01 /* BrokerApp */;
+			targetProxy = 183225E02D75AD5600B2AA01 /* PBXContainerItemProxy */;
+		};
+		183225EB2D75AD5600B2AA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183225C82D75AD5200B2AA01 /* BrokerApp */;
+			targetProxy = 183225EA2D75AD5600B2AA01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183226092D75AD6A00B2AA01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183226082D75AD6A00B2AA01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1832260B2D75AD6A00B2AA01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1832260A2D75AD6A00B2AA01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183225F32D75AD5600B2AA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD4A89DE0B14550C0096879 /* Pods-BrokerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrokerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrokerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		183225F42D75AD5600B2AA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6E85814C8842E555F1F6CF /* Pods-BrokerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrokerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrokerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		183225F52D75AD5600B2AA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		183225F62D75AD5600B2AA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183225F82D75AD5600B2AA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91013A5498B6C5935DD3CD94 /* Pods-BrokerAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrokerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrokerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrokerApp";
+			};
+			name = Debug;
+		};
+		183225F92D75AD5600B2AA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D041676CC80C1643988094 /* Pods-BrokerAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrokerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrokerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrokerApp";
+			};
+			name = Release;
+		};
+		183225FB2D75AD5600B2AA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB04B4E4A0EA049FD64BF7B /* Pods-BrokerApp-BrokerAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrokerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrokerApp;
+			};
+			name = Debug;
+		};
+		183225FC2D75AD5600B2AA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D6E44AF6E8433CCF7CDFF7 /* Pods-BrokerApp-BrokerAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrokerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrokerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183225C42D75AD5200B2AA01 /* Build configuration list for PBXProject "BrokerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183225F52D75AD5600B2AA01 /* Debug */,
+				183225F62D75AD5600B2AA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183225F22D75AD5600B2AA01 /* Build configuration list for PBXNativeTarget "BrokerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183225F32D75AD5600B2AA01 /* Debug */,
+				183225F42D75AD5600B2AA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183225F72D75AD5600B2AA01 /* Build configuration list for PBXNativeTarget "BrokerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183225F82D75AD5600B2AA01 /* Debug */,
+				183225F92D75AD5600B2AA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183225FA2D75AD5600B2AA01 /* Build configuration list for PBXNativeTarget "BrokerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183225FB2D75AD5600B2AA01 /* Debug */,
+				183225FC2D75AD5600B2AA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183225C12D75AD5200B2AA01 /* Project object */;
+}
